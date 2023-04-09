@@ -1,0 +1,230 @@
+@import 'partials/variables';
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://megaone.acrothemes.com/cafe/images/banner-image.jpg');
+    background-size: cover;
+    nav {
+        display: flex;
+        justify-content: center;
+
+        .title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 80%;
+            height: 10vh;
+            background-color: rgb(255, 255, 255);
+            background-position: top center;
+            background-size: cover;
+            position: fixed;
+            z-index: 9;
+
+            .pic {
+                background-color: $color-black;
+                margin: 0;
+                height: 100%;
+                width: 10%;
+                background-image: url('https://megaone.acrothemes.com/cafe/images/logo.png');
+                background-size: 60%;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+
+            ul {
+                li {
+                    list-style: none;
+                    margin: 1%;
+                    a {
+                        text-decoration: none;
+                        font-size: $font-10;
+                        color: $color-black;
+                    }
+                    .orange{
+                        color: $color-main;
+                    }
+                    a:hover {
+                        color: $color-main;
+                        transition: .25s; 
+                    }
+                }
+            }
+        }
+    }
+    .text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 14px;
+        margin-top: 15%; 
+        #serving {
+            background-color: rgb(0, 0, 0);
+            color: $color-white;
+            padding: 1%; 
+        }
+        #best {
+            color: $color-white;
+            padding: 1%;
+        }
+        button{
+            width: 70px;
+            margin-top: 3%;
+            font-size: 8px;
+            padding: 1%;
+            border: none;
+            border-radius: 15px;
+        }
+        button:hover {
+            background-color: $color-black;
+            color: $color-white;
+            transition: .15s;
+
+        }
+
+    }
+}
+
+.color-main {
+    background-color: $color-main;
+    color: $color-white;
+}
+
+#ab{
+    margin: 10%;
+    .item{
+        position: relative;
+        .item-text{
+            margin-right: 7%;
+            .food {
+                background-color: $color-main;
+                padding: 1%;
+                position: absolute;
+            }
+        }
+        
+    }
+
+    .part3{
+        margin-top: 1%;
+        align-items: flex-end;
+        position: relative;
+        .divs{
+            // border-style: solid;
+            margin: 2%;
+            width: 40%;
+            display: flex;
+            align-items: center;
+            p{
+                font-size: 8px;
+            }
+        }
+
+        #icon{
+            font-size: 100px;
+        }
+
+        .second {
+            display: flex;
+            align-self: center;
+            display: block !important;
+            text-align: center;
+            // float: right;
+            position: absolute;
+            top: 25px;
+            right: 30px;
+            width: 30%;
+        }
+        .third {
+            margin-top: 5%;
+        }
+    }
+
+}
+
+.div-orange{
+    margin: 2% 0 1% 0;
+    width: 100%; 
+    height: 45vh;
+    align-items: center;
+    font-size: 10px;
+    justify-content: center;
+    background-color: $color-main;
+    color: $color-white;
+    div {
+        margin: 6% 1%;
+        font-size: 6px;
+        text-align: center;
+        width:110px;
+        h1{
+            font-size: 30px;
+        }
+    }
+}
+
+#gallery{ 
+    margin: 5% 0;
+    .part5{
+        flex-direction: column;
+        .part5-text{
+            font-size: 10px;
+            text-align: center;
+            margin-bottom: 7%;
+            h1{
+                color: $color-main;
+            }
+        }
+        .pics{
+            
+            .items{
+                width: 100px;
+                height: 100px;
+                background-size: 150%;
+                background-repeat: no-repeat; 
+                background-position: center;
+            }
+            .p1{
+                background-image: url('https://cdn.concreteplayground.com/content/uploads/2016/05/Hobba-Prahran-Melbourne-03-1440x1440.jpeg');
+                background-position: left center;
+            }
+            .p2{
+                background-image: url('https://askmelbourne.com.au/wp-content/uploads/Difference-Between-Cafe-And-Restaurant-1024x682.jpg');
+                background-position: left center;
+            }
+            .p3{
+                background-image: url('https://restaurantengine.com/wp-content/uploads/2013/10/Coffee-Culture.png');
+                background-position: left center;
+            }
+            .p4{
+                background-image: url('https://impos.com.au/wp-content/uploads/2017/08/coffee-sign-in-cafe.jpg');
+                background-position: left bottom;
+            }
+            .p5{
+                background-image: url('https://media.istockphoto.com/id/929946014/photo/barista-serving-customers-inside-a-coffee-shop.jpg?s=170667a&w=0&k=20&c=1V1CTjUgBrSQHBhbguRlbUAtZSBzkqQMXg2c-ihm7Q0=');
+            }
+            .p6{
+                background-image: url('https://media.istockphoto.com/id/1319590769/photo/frustrated-coffee-shop-manager-in-cafe-small-business-coronavirus-and-new-normal-concept.jpg?s=170667a&w=0&k=20&c=uE2L6RyC-7f_SQyO4JOhNaoJ5VSlXy5hCjy5KHjJrbo=');
+            }
+            .items:hover{
+                background-size: 200%;
+                transition: .65s; 
+                background-color: black;
+                .i-hover {
+                    display: flex;
+                    
+                }
+            }
+        }
+        .i-hover{
+            font-size: 35px;
+            height: 100%;
+            display: none;
+            background: linear-gradient(#1f1b1b, #9198e5); 
+        }
+    }
+    
+}
+
+

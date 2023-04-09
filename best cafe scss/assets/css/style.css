@@ -1,0 +1,207 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url("https://megaone.acrothemes.com/cafe/images/banner-image.jpg");
+  background-size: cover;
+}
+.container nav {
+  display: flex;
+  justify-content: center;
+}
+.container nav .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  height: 10vh;
+  background-color: rgb(255, 255, 255);
+  background-position: top center;
+  background-size: cover;
+  position: fixed;
+  z-index: 9;
+}
+.container nav .title .pic {
+  background-color: black;
+  margin: 0;
+  height: 100%;
+  width: 10%;
+  background-image: url("https://megaone.acrothemes.com/cafe/images/logo.png");
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container nav .title ul li {
+  list-style: none;
+  margin: 1%;
+}
+.container nav .title ul li a {
+  text-decoration: none;
+  font-size: 10px;
+  color: black;
+}
+.container nav .title ul li .orange {
+  color: rgb(255, 94, 0);
+}
+.container nav .title ul li a:hover {
+  color: rgb(255, 94, 0);
+  transition: 0.25s;
+}
+.container .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  margin-top: 15%;
+}
+.container .text #serving {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 1%;
+}
+.container .text #best {
+  color: white;
+  padding: 1%;
+}
+.container .text button {
+  width: 70px;
+  margin-top: 3%;
+  font-size: 8px;
+  padding: 1%;
+  border: none;
+  border-radius: 15px;
+}
+.container .text button:hover {
+  background-color: black;
+  color: white;
+  transition: 0.15s;
+}
+
+.color-main {
+  background-color: rgb(255, 94, 0);
+  color: white;
+}
+
+#ab {
+  margin: 10%;
+}
+#ab .item {
+  position: relative;
+}
+#ab .item .item-text {
+  margin-right: 7%;
+}
+#ab .item .item-text .food {
+  background-color: rgb(255, 94, 0);
+  padding: 1%;
+  position: absolute;
+}
+#ab .part3 {
+  margin-top: 1%;
+  align-items: flex-end;
+  position: relative;
+}
+#ab .part3 .divs {
+  margin: 2%;
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+#ab .part3 .divs p {
+  font-size: 8px;
+}
+#ab .part3 #icon {
+  font-size: 100px;
+}
+#ab .part3 .second {
+  display: flex;
+  align-self: center;
+  display: block !important;
+  text-align: center;
+  position: absolute;
+  top: 25px;
+  right: 30px;
+  width: 30%;
+}
+#ab .part3 .third {
+  margin-top: 5%;
+}
+
+.div-orange {
+  margin: 2% 0 1% 0;
+  width: 100%;
+  height: 45vh;
+  align-items: center;
+  font-size: 10px;
+  justify-content: center;
+  background-color: rgb(255, 94, 0);
+  color: white;
+}
+.div-orange div {
+  margin: 6% 1%;
+  font-size: 6px;
+  text-align: center;
+  width: 110px;
+}
+.div-orange div h1 {
+  font-size: 30px;
+}
+
+#gallery {
+  margin: 5% 0;
+}
+#gallery .part5 {
+  flex-direction: column;
+}
+#gallery .part5 .part5-text {
+  font-size: 10px;
+  text-align: center;
+  margin-bottom: 7%;
+}
+#gallery .part5 .part5-text h1 {
+  color: rgb(255, 94, 0);
+}
+#gallery .part5 .pics .items {
+  width: 100px;
+  height: 100px;
+  background-size: 150%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#gallery .part5 .pics .p1 {
+  background-image: url("https://cdn.concreteplayground.com/content/uploads/2016/05/Hobba-Prahran-Melbourne-03-1440x1440.jpeg");
+  background-position: left center;
+}
+#gallery .part5 .pics .p2 {
+  background-image: url("https://askmelbourne.com.au/wp-content/uploads/Difference-Between-Cafe-And-Restaurant-1024x682.jpg");
+  background-position: left center;
+}
+#gallery .part5 .pics .p3 {
+  background-image: url("https://restaurantengine.com/wp-content/uploads/2013/10/Coffee-Culture.png");
+  background-position: left center;
+}
+#gallery .part5 .pics .p4 {
+  background-image: url("https://impos.com.au/wp-content/uploads/2017/08/coffee-sign-in-cafe.jpg");
+  background-position: left bottom;
+}
+#gallery .part5 .pics .p5 {
+  background-image: url("https://media.istockphoto.com/id/929946014/photo/barista-serving-customers-inside-a-coffee-shop.jpg?s=170667a&w=0&k=20&c=1V1CTjUgBrSQHBhbguRlbUAtZSBzkqQMXg2c-ihm7Q0=");
+}
+#gallery .part5 .pics .p6 {
+  background-image: url("https://media.istockphoto.com/id/1319590769/photo/frustrated-coffee-shop-manager-in-cafe-small-business-coronavirus-and-new-normal-concept.jpg?s=170667a&w=0&k=20&c=uE2L6RyC-7f_SQyO4JOhNaoJ5VSlXy5hCjy5KHjJrbo=");
+}
+#gallery .part5 .pics .items:hover {
+  background-size: 200%;
+  transition: 0.65s;
+  background-color: black;
+}
+#gallery .part5 .pics .items:hover .i-hover {
+  display: flex;
+}
+#gallery .part5 .i-hover {
+  font-size: 35px;
+  height: 100%;
+  display: none;
+  background: linear-gradient(#1f1b1b, #9198e5);
+}/*# sourceMappingURL=style.css.map */
